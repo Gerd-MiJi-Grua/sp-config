@@ -25,10 +25,12 @@ management:
 spring:
   profiles: order1
   
-server.port: 8201
+server:
+  port: 8201
   
 ---
 spring:
   profiles: order2
   
-server.port: 8202
+server:
+  port: 8202
